@@ -158,6 +158,11 @@ nfs-busybox-w3s4t
 ```
 
 
+On Minikube, you may also:
+
+```console
+kubectl expose service nfs-web --name web --port 80 --external-ip=$(minikube ip)
+```
 
 
 <!-- BEGIN MUNGE: GENERATED_ANALYTICS -->
